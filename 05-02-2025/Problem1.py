@@ -42,7 +42,8 @@
 
 # Với a = [1, 2, 4, 3, -2 ] thì kết quả mong muốn là NO. Vì trong chuỗi này có không tăng dần và không giảm dần.
 
-
+n = int(input("enter amount of numbers: "))
+a = list(map(int, input().split()))
 
 
 def is_monotonic(a:list):
