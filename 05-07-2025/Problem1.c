@@ -30,7 +30,8 @@ int main() {
 
     double max = a[0];
     max_indices[0] = 0;
-    for(int i = 0;i<n+1; ++i){
+    count++;
+    for(int i = 0;i<n; ++i){
         if(a[i]>max){
             max = a[i];
             count = 1;
